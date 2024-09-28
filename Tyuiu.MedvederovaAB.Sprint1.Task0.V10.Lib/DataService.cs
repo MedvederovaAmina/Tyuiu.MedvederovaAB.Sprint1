@@ -6,7 +6,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task0.V10.Lib
     {
         public double Calculate()
         {
-            return ( 3.0 / 6.0 - 4.0 ) * 3;
+            return (3.0 / 6.0 - 4.0 ) * 3;
         }
     }
 }
