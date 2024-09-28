@@ -10,7 +10,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task0.V10.Test
         {
             DataService ds = new DataService();
             var res = ds.Calculate();
-            Assert.AreEqual(-10.5 , res);
+            Assert.AreEqual( -10.5 , res );
         }
     }
 }
