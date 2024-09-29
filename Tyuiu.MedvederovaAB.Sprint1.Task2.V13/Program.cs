@@ -13,7 +13,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task2.V13
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #13                                                             *");
-            Console.WriteLine("* Выполнила: Медведерова Амина Борисовна | ПКT6-24-1                      *");
+            Console.WriteLine("* Выполнила: Медведерова Амина Борисовна | ПКTб-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
