@@ -11,7 +11,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task6.V5.Lib
             string result = "";
             foreach ( string st in splitStr )
             {
-                char[] arr = st.ToCharArray();
+                char[] arr =  st.ToCharArray();
                 Array.Reverse(arr);
                 if (st.Equals(new string(arr))) result += st;
 

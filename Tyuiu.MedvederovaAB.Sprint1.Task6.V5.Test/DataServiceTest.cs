@@ -8,7 +8,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task6.V5.Test
         [TestMethod]
         public void ValidString()
         {
-            DataService dataService = new DataService();
+            DataService  dataService = new DataService();
             Assert.AreEqual(dataService.CheckSymmetricalWords("шалаш кофе казак"), "шалашказак");
         }
     }
