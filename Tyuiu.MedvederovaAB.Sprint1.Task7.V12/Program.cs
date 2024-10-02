@@ -25,7 +25,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task7.V12
             double x, y;
             Console.WriteLine("Введите значение x:");
             x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите значение y:");
+            Console.WriteLine("Введите значение y: ");
             y = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
