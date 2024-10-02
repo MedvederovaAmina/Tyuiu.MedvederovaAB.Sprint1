@@ -8,11 +8,8 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task6.V5.Test
         [TestMethod]
         public void ValidString()
         {
-            string strTest = "шалаш, кофе, казак";
-            DataService ds = new DataService();
-            string res = ds.CheckSymmetricalWords( strTest );
-            string wait = "шалаш, казак";
-            Assert.AreEqual(wait, res);
+            DataService dataService = new DataService();
+            Assert.AreEqual(dataService.CheckSymmetricalWords("шалаш кофе казак"), "шалашказак");
         }
     }
 }

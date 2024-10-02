@@ -9,7 +9,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task6.V5.Lib
         {
             string[] splitStr = str.Split(" ");
             string result = "";
-            foreach (string st in splitStr)
+            foreach ( string st in splitStr )
             {
                 char[] arr = st.ToCharArray();
                 Array.Reverse(arr);

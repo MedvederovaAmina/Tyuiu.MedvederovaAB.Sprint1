@@ -7,7 +7,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task6.V5
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнила: Медведерова А. Б. | ПКT6-24-1";
+            Console.Title = "Спринт #1 |  Выполнила: Медведерова А. Б. | ПКT6-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
