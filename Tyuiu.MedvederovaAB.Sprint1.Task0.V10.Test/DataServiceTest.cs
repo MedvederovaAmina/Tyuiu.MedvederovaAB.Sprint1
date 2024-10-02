@@ -7,7 +7,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task0.V10.Test
     {
         [TestMethod]
         public void ValidExpression()
-        {
+        { 
             DataService ds = new DataService();
             var res = ds.Calculate();
             Assert.AreEqual( -10.5 , res);
