@@ -12,7 +12,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib
             rubles = (int)number;
             double ost = (number - rubles) * 100;
             kopeiki = (int)ost;
-            return $"{number} руб. - это {rubles} руб. {kopeiki} коп. " ;
+            return $"{number} руб. - это {rubles} руб. {kopeiki} коп." ;
         }
     }
 }
