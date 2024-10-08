@@ -26,7 +26,7 @@ class Program
         Console.Write("number =");
         number = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+        Console.WriteLine("*  РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine(ds.NumberToMoney(number));
         Console.ReadKey();
