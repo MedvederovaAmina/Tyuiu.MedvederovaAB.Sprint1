@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\Tyuiu.MedvederovaAB.Sprint1.Task0.V10.Lib\tyuiu.cources.programming.interfaces.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Dll\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
 

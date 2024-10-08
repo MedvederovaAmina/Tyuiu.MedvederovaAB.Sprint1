@@ -1,11 +1,8 @@
-﻿using System.Collections.Specialized;
-using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
-using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib
 {
-    public class DataService 
+    public class DataService : ISprint1Task3V10
     {
         public string NumberToMoney(double number)
         {
@@ -15,10 +12,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib
             rubles = (int)number;
             double ost = (number - rubles) * 100;
             kopeiki = (int)ost;
-
-           
-            return $"{number} руб. - это {rubles} руб. {kopeiki} коп.";
-            
+            return $"{number} руб. - это {rubles} руб. {kopeiki} коп. ";
         }
     }
 }
