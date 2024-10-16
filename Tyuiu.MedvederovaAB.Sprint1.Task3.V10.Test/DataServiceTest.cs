@@ -9,8 +9,8 @@ public class DataServiceTest
     public void ValidExpression()
     {
         DataService ds = new DataService();
-        double nomber =  23.6;
-        var res = ds.NumberToMoney(23.6);
+        double nomber = 23.6;
+        string res = ds.NumberToMoney(23.6);
         Assert.AreEqual($"23.6  руб. - это 23 руб. 60 коп.", res);
     }
 }
