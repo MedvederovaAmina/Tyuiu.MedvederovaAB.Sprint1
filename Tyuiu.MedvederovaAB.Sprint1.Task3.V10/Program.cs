@@ -1,4 +1,5 @@
-﻿using Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib;
+﻿using System.Globalization;
+using Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib;
 
 namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10;
 
@@ -22,13 +23,18 @@ class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        double number;
-        Console.Write("number =");
-        number = Convert.ToDouble(Console.ReadLine());
+       
+        Console.Write(" number = ");
+       
+        double number = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        CultureInfo.CurrentCulture = new CultureInfo("en-US");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.NumberToMoney(number));
+       
+        string res = ds.NumberToMoney(number);
+        Console.WriteLine(res);
+
         Console.ReadKey();
     }
 }
