@@ -32,7 +32,7 @@ class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
        
-        string res =  ds.NumberToMoney(number);
+        string res =   ds.NumberToMoney(number);
         Console.WriteLine(res);
 
         Console.ReadKey();

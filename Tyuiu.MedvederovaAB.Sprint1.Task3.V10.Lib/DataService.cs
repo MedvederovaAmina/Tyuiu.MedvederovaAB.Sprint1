@@ -6,7 +6,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib
     {
         public string NumberToMoney(double number)
         {
-            number =  Math.Round(number, 3);
+            number = Math.Round(number, 3);
             int rubles =  0;
             int kopeiki = 0;
             rubles = (int)number;

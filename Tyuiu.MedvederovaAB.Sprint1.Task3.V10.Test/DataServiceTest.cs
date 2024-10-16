@@ -10,7 +10,6 @@ public class DataServiceTest
     {
         DataService ds = new DataService();
         double nomber = 23.6;
-        string res = ds.NumberToMoney(23.6);
-        Assert.AreEqual($"23.6  руб. - это 23 руб. 60 коп.", res);
+        Assert.AreEqual($"23,6 руб. - это 23 руб. 60 коп.", ds.NumberToMoney(23.6));
     }
 }
