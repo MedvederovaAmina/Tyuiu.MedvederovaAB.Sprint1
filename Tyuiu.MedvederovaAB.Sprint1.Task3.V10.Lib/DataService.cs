@@ -19,7 +19,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib
             num = num.Replace(",", ".");
             num = num.TrimEnd('0');
 
-            return $"{num:F3} руб. — это {rubles} руб. {kopecks} коп."; 
+            return $"{num:F3} руб. - это {rubles} руб. {kopecks} коп."; 
         }
     }
 }
