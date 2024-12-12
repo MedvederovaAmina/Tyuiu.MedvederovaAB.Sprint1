@@ -6,10 +6,11 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Test;
 public class DataServiceTest
 {
     [TestMethod]
-    public void ValidExpression()
+    public void ValidExpression(string res)
     {
         DataService ds = new DataService();
-        double nomber = 23.6;
-        Assert.AreEqual($"23,6 руб. - это 23 руб. 60 коп.", ds.NumberToMoney(23.6));
+        double number = 23.6;
+        
+        Assert.AreEqual($"23.6 руб. - это 23 руб. 60 коп.", ds.NumberToMoney(number));
     }
 }
