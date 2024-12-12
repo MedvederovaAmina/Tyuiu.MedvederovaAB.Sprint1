@@ -17,7 +17,7 @@ namespace Tyuiu.MedvederovaAB.Sprint1.Task3.V10.Lib
             rubles = rubles.Replace(',', '.');
             kopecks = kopecks.Replace(',', '.');
             num = num.Replace(",", ".");
-            num = num.Replace("0", " ").Trim();
+            num = num.TrimEnd('0');
 
             return $"{num:F3} руб. — это {rubles} руб. {kopecks} коп."; 
         }
